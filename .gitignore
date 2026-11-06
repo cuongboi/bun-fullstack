@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Bun build and local data
+server/public
+run-server
+uploads
+certs
+.env
+
+# Agent tool state
+.swarm
+.claude-flow
+ruvector.db
